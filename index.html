@@ -27,6 +27,30 @@
           linear-gradient(135deg, #f7efe4, #e9f2ef);
       }
 
+      .corner-button {
+        position: fixed;
+        top: 18px;
+        left: 18px;
+        z-index: 10;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 18px;
+        border: 0;
+        border-radius: 8px;
+        background: #33261f;
+        color: #fff8ef;
+        font-size: 15px;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0 12px 28px rgba(51, 38, 31, .18);
+      }
+
+      .corner-button:hover {
+        background: #5a3f2a;
+      }
+
       main {
         width: min(92vw, 720px);
         text-align: center;
@@ -43,6 +67,7 @@
     </style>
   </head>
   <body>
+    <a class="corner-button" href="heart.html" target="_blank" rel="noopener">敢不敢点我</a>
     <main>
       <img src="assets/dog.svg" alt="一只简单可爱的小狗插画">
     </main>
